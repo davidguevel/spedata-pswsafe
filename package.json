@@ -1,0 +1,35 @@
+{
+  "name": "spedata-pswsafe",
+  "version": "1.0.0",
+  "description": "pratique redis",
+  "main": "index.js",
+  "scripts": {
+    "start":"node .",
+    "dev":"DEBUG=*,-express:*,-nodemon:* npx nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidguevel/spedata-pswsafe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidguevel/spedata-pswsafe/issues"
+  },
+  "homepage": "https://github.com/davidguevel/spedata-pswsafe#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "dependencies": {
+    "debug": "^4.3.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "redis": "^4.0.3"
+  }
+}
